@@ -13,6 +13,10 @@ inputs:
     description: 'Path to folder containing deployable files'
     required: true
 
+outputs:
+  website-url:
+    description: 'URL of deployed website'
+
 runs:
   using: 'node16'
   main: 'main.js'
