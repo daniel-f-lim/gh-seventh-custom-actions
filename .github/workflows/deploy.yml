@@ -72,6 +72,6 @@ jobs:
           bucket: hidoe-oits-esb-github-actions-test
           region: us-west-2
           dist-folder: ./dist
-      - name: Output Information
+      - name: Output Information 2
         run: |
           echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
